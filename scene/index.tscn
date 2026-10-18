@@ -1,0 +1,227 @@
+[gd_scene format=3 uid="uid://b2cvfu4qa6qdk"]
+
+[ext_resource type="Texture2D" uid="uid://cd6bg127tvf7g" path="res://assets/textures/Background/SelectorScreen_BG_Center.png" id="1_4m1xh"]
+[ext_resource type="Texture2D" uid="uid://bl06vpfd04lpa" path="res://assets/textures/Background/SelectorScreen_BG_Left.png" id="2_3ldh8"]
+[ext_resource type="Texture2D" uid="uid://1bem58wmgtt2" path="res://assets/textures/Background/SelectorScreen_BG_Right.png" id="3_ebyya"]
+[ext_resource type="Texture2D" uid="uid://cm3ea1337wybf" path="res://assets/textures/Button/SelectorScreen_StartAdventure_Highlight.png" id="4_4t4bl"]
+[ext_resource type="Texture2D" uid="uid://qdvygshpl6be" path="res://assets/textures/Button/SelectorScreen_StartAdventure_Button1.png" id="5_ssxci"]
+[ext_resource type="Texture2D" uid="uid://c3d0ibyfeoabr" path="res://assets/textures/Button/SelectorScreen_Survival_highlight.png" id="6_gkqrr"]
+[ext_resource type="Texture2D" uid="uid://k238783px3gt" path="res://assets/textures/Button/SelectorScreen_Survival_button.png" id="7_ce3ev"]
+[ext_resource type="Texture2D" uid="uid://xyb01war7yo2" path="res://assets/textures/Button/SelectorScreen_Challenges_button.png" id="8_afmlc"]
+[ext_resource type="Texture2D" uid="uid://bai5w5sdi0xti" path="res://assets/textures/Button/SelectorScreen_Challenges_highlight.png" id="9_s8of3"]
+[ext_resource type="Texture2D" uid="uid://3vwpl2qhkgop" path="res://assets/textures/Button/SelectorScreen_Vasebreaker_button.png" id="10_26ql3"]
+[ext_resource type="Texture2D" uid="uid://bdncuifpnqc85" path="res://assets/textures/Button/SelectorScreen_vasebreaker_highlight.png" id="11_4impf"]
+[ext_resource type="Texture2D" uid="uid://bienboiakyp31" path="res://assets/textures/Button/text.png" id="12_v35vc"]
+[ext_resource type="Texture2D" uid="uid://jvfk8r3vudmh" path="res://assets/textures/Button/SelectorScreen_WoodSign1.png" id="13_4t4bl"]
+[ext_resource type="Texture2D" uid="uid://ceaijryfwmnfx" path="res://assets/textures/Background/SelectorScreen_Leaves.png" id="13_5bclx"]
+[ext_resource type="Texture2D" uid="uid://ns08mnvctu2m" path="res://assets/textures/Button/SelectorScreen_WoodSign2.png" id="14_ssxci"]
+[ext_resource type="Texture2D" uid="uid://c445luvgom57m" path="res://assets/textures/Button/SelectorScreen_WoodSign2_press.png" id="15_gkqrr"]
+[ext_resource type="Texture2D" uid="uid://cemn1tf1vfh8b" path="res://assets/textures/Button/SelectorScreen_WoodSign3.png" id="16_gkqrr"]
+[ext_resource type="Texture2D" uid="uid://4q40m0unvk6f" path="res://assets/textures/Button/SelectorScreen_WoodSign3_press.png" id="17_ce3ev"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t41bo"]
+texture = ExtResource("1_4m1xh")
+texture_region_size = Vector2i(800, 600)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_2hutd"]
+tile_size = Vector2i(800, 600)
+sources/0 = SubResource("TileSetAtlasSource_t41bo")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fw2i7"]
+texture = ExtResource("2_3ldh8")
+texture_region_size = Vector2i(476, 680)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_6afwh"]
+tile_size = Vector2i(476, 680)
+sources/2 = SubResource("TileSetAtlasSource_fw2i7")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_upedb"]
+texture = ExtResource("3_ebyya")
+texture_region_size = Vector2i(730, 560)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_ld262"]
+tile_size = Vector2i(730, 560)
+sources/1 = SubResource("TileSetAtlasSource_upedb")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wsdm3"]
+texture = ExtResource("4_4t4bl")
+texture_region_size = Vector2i(331, 146)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5hi1x"]
+texture = ExtResource("5_ssxci")
+texture_region_size = Vector2i(331, 146)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_r7ya8"]
+tile_size = Vector2i(331, 146)
+sources/2 = SubResource("TileSetAtlasSource_wsdm3")
+sources/3 = SubResource("TileSetAtlasSource_5hi1x")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tn8np"]
+texture = ExtResource("6_gkqrr")
+texture_region_size = Vector2i(313, 133)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xf7vp"]
+texture = ExtResource("7_ce3ev")
+texture_region_size = Vector2i(313, 133)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_7n1ln"]
+tile_size = Vector2i(313, 133)
+sources/0 = SubResource("TileSetAtlasSource_tn8np")
+sources/2 = SubResource("TileSetAtlasSource_xf7vp")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ivuy6"]
+texture = ExtResource("8_afmlc")
+texture_region_size = Vector2i(286, 122)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_u2a72"]
+texture = ExtResource("9_s8of3")
+texture_region_size = Vector2i(286, 122)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_tdlj1"]
+tile_size = Vector2i(286, 122)
+sources/2 = SubResource("TileSetAtlasSource_ivuy6")
+sources/3 = SubResource("TileSetAtlasSource_u2a72")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7s24w"]
+texture = ExtResource("10_26ql3")
+texture_region_size = Vector2i(266, 123)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4v5hf"]
+texture = ExtResource("11_4impf")
+texture_region_size = Vector2i(266, 123)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_kicaw"]
+tile_size = Vector2i(266, 123)
+sources/1 = SubResource("TileSetAtlasSource_7s24w")
+sources/2 = SubResource("TileSetAtlasSource_4v5hf")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_f5ha0"]
+texture = ExtResource("13_5bclx")
+texture_region_size = Vector2i(240, 62)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_p1vec"]
+tile_size = Vector2i(240, 62)
+sources/1 = SubResource("TileSetAtlasSource_f5ha0")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ce3ev"]
+texture = ExtResource("13_4t4bl")
+texture_region_size = Vector2i(293, 150)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_etq46"]
+tile_size = Vector2i(293, 150)
+sources/1 = SubResource("TileSetAtlasSource_ce3ev")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_afmlc"]
+texture = ExtResource("14_ssxci")
+texture_region_size = Vector2i(291, 71)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_s8of3"]
+texture = ExtResource("15_gkqrr")
+texture_region_size = Vector2i(291, 71)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_afsqq"]
+tile_size = Vector2i(291, 71)
+sources/4 = SubResource("TileSetAtlasSource_afmlc")
+sources/5 = SubResource("TileSetAtlasSource_s8of3")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_26ql3"]
+texture = ExtResource("16_gkqrr")
+texture_region_size = Vector2i(279, 83)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4impf"]
+texture = ExtResource("17_ce3ev")
+texture_region_size = Vector2i(279, 83)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_2e34r"]
+tile_size = Vector2i(279, 83)
+sources/0 = SubResource("TileSetAtlasSource_26ql3")
+sources/1 = SubResource("TileSetAtlasSource_4impf")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_x13wy"]
+texture = ExtResource("12_v35vc")
+texture_region_size = Vector2i(70, 40)
+0:0/0 = 0
+0:1/0 = 0
+0:2/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_ghfa1"]
+tile_size = Vector2i(4, 4)
+sources/1 = SubResource("TileSetAtlasSource_x13wy")
+
+[node name="Index" type="Node2D" unique_id=937448692]
+
+[node name="Background" type="TileMapLayer" parent="." unique_id=1807770797]
+z_index = -1
+tile_map_data = PackedByteArray(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+tile_set = SubResource("TileSet_2hutd")
+
+[node name="Tree" type="TileMapLayer" parent="." unique_id=1670197949]
+position = Vector2(0, -80)
+tile_map_data = PackedByteArray(0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0)
+tile_set = SubResource("TileSet_6afwh")
+
+[node name="Tombstone" type="TileMapLayer" parent="." unique_id=827927264]
+position = Vector2(70, 40)
+tile_map_data = PackedByteArray(0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0)
+tile_set = SubResource("TileSet_ld262")
+
+[node name="Adventure" type="TileMapLayer" parent="." unique_id=141878001]
+position = Vector2(74, -87)
+tile_map_data = PackedByteArray(0, 0, 1, 0, 1, 0, 3, 0, 0, 0, 0, 0, 0, 0)
+tile_set = SubResource("TileSet_r7ya8")
+
+[node name="Mini-Games" type="TileMapLayer" parent="." unique_id=1970217009]
+position = Vector2(91, -99)
+tile_map_data = PackedByteArray(0, 0, 1, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0)
+tile_set = SubResource("TileSet_7n1ln")
+
+[node name="Puzzle" type="TileMapLayer" parent="." unique_id=1784854694]
+position = Vector2(125, 10)
+tile_map_data = PackedByteArray(0, 0, 1, 0, 2, 0, 2, 0, 0, 0, 0, 0, 0, 0)
+tile_set = SubResource("TileSet_tdlj1")
+
+[node name="Survival" type="TileMapLayer" parent="." unique_id=1154485457]
+position = Vector2(143, -45)
+tile_map_data = PackedByteArray(0, 0, 1, 0, 3, 0, 1, 0, 0, 0, 0, 0, 0, 0)
+tile_set = SubResource("TileSet_kicaw")
+
+[node name="Grass" type="TileMapLayer" parent="." unique_id=1429137246]
+position = Vector2(0, -20)
+tile_map_data = PackedByteArray(0, 0, 0, 0, 9, 0, 1, 0, 0, 0, 0, 0, 0, 0)
+tile_set = SubResource("TileSet_p1vec")
+
+[node name="WoodSign1" type="TileMapLayer" parent="." unique_id=229835316]
+tile_map_data = PackedByteArray(0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0)
+tile_set = SubResource("TileSet_etq46")
+
+[node name="WoodSign2" type="TileMapLayer" parent="." unique_id=378287497]
+position = Vector2(0, -1)
+tile_map_data = PackedByteArray(0, 0, 0, 0, 2, 0, 4, 0, 0, 0, 0, 0, 0, 0)
+tile_set = SubResource("TileSet_afsqq")
+
+[node name="WoodSign3" type="TileMapLayer" parent="." unique_id=1078003606]
+position = Vector2(0, 37)
+tile_map_data = PackedByteArray(0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+tile_set = SubResource("TileSet_2e34r")
+
+[node name="Text" type="TileMapLayer" parent="." unique_id=360093511]
+position = Vector2(0, -1)
+tile_map_data = PackedByteArray(0, 0, 150, 0, 126, 0, 1, 0, 0, 0, 0, 0, 0, 0, 167, 0, 132, 0, 1, 0, 0, 0, 1, 0, 0, 0, 185, 0, 129, 0, 1, 0, 0, 0, 2, 0, 0, 0)
+tile_set = SubResource("TileSet_ghfa1")
